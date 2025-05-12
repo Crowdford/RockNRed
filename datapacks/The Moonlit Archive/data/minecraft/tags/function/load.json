@@ -1,5 +1,6 @@
 {
 	"values": [
-		"mla_trinkets:internal/load"
+		"mla_trinkets:internal/load",
+		"mla_main:internal/load"
 	]
 }

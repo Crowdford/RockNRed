@@ -1,0 +1,36 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "trinkets:gui/empty"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/chest"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/core"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/feet"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/head"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/legs"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/trinket"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/wing"
+        }
+    ]
+}
