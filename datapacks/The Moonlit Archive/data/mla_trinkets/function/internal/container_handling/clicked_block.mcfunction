@@ -1,0 +1,2 @@
+
+execute align xyz positioned ~ ~ ~ if block ~ ~ ~ #bb:containers unless entity @e[distance=..1,tag=mla_trinkets_cloud] run summon area_effect_cloud ~.5 ~.1 ~.5 {custom_particle:{type:"block",block_state:"minecraft:air"},ReapplicationDelay:0,Radius:0.0001f,RadiusPerTick:0f,RadiusOnUse:0f,Duration:80,DurationOnUse:0f,potion_duration_scale:0f,Age:1,WaitTime:1,potion_contents:{potion:"minecraft:empty"},Tags:["mla_trinkets_cloud"]}

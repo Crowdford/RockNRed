@@ -1,0 +1,14 @@
+execute if entity @s[advancements={mla_trinkets:container={y0-1=true}}] positioned ~ ~0.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y1-2=true}}] positioned ~ ~1.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y2-3=true}}] positioned ~ ~2.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y3-4=true}}] positioned ~ ~3.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y4-5=true}}] positioned ~ ~4.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y5-6=true}}] positioned ~ ~5.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y6-7=true}}] positioned ~ ~6.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y0-1=true}}] positioned ~ ~-0.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y1-2=true}}] positioned ~ ~-1.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y2-3=true}}] positioned ~ ~-2.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y3-4=true}}] positioned ~ ~-3.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y4-5=true}}] positioned ~ ~-4.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y5-6=true}}] positioned ~ ~-5.5 ~ run function mla_trinkets:internal/container_handling/z
+execute if entity @s[advancements={mla_trinkets:container={y6-7=true}}] positioned ~ ~-6.5 ~ run function mla_trinkets:internal/container_handling/z

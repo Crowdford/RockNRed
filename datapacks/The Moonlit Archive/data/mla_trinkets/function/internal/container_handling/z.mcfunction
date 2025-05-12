@@ -1,0 +1,14 @@
+execute if entity @s[advancements={mla_trinkets:container={z0-1=true}}] positioned ~ ~ ~0.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z1-2=true}}] positioned ~ ~ ~1.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z2-3=true}}] positioned ~ ~ ~2.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z3-4=true}}] positioned ~ ~ ~3.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z4-5=true}}] positioned ~ ~ ~4.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z5-6=true}}] positioned ~ ~ ~5.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z6-7=true}}] positioned ~ ~ ~6.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z0-1=true}}] positioned ~ ~ ~-0.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z1-2=true}}] positioned ~ ~ ~-1.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z2-3=true}}] positioned ~ ~ ~-2.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z3-4=true}}] positioned ~ ~ ~-3.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z4-5=true}}] positioned ~ ~ ~-4.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z5-6=true}}] positioned ~ ~ ~-5.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
+execute if entity @s[advancements={mla_trinkets:container={z6-7=true}}] positioned ~ ~ ~-6.5 if block ~ ~ ~ chest run function mla_trinkets:internal/container_handling/clicked_block
