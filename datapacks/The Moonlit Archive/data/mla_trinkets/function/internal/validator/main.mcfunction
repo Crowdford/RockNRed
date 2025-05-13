@@ -1,13 +1,4 @@
 
-#1 #1 - helmet
-#2 #2 - chestplate
-#4 #3 - leggings
-#8 #4 - boots
-#16 #5 - trinket
-#32 #6 - wings
-#64 #7 - core
-
-
 #reset valid flag
 tag @s remove valid
 #store slots flag

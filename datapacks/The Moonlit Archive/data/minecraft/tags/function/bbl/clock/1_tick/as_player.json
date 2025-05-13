@@ -1,5 +1,6 @@
 {
 	"values": [
-		"mla_trinkets:internal/clocks/1_tick/as_player"
+		"mla_trinkets:internal/clocks/1_tick/as_player",
+		"mla_dev_tools:internal/clocks/1_tick/as_player"
 	]
 }

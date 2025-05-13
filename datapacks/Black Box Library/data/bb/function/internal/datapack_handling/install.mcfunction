@@ -207,6 +207,7 @@ scoreboard players set $128 bbl.constant 128
 scoreboard players set $140 bbl.constant 140
 scoreboard players set $150 bbl.constant 150
 scoreboard players set $200 bbl.constant 200
+scoreboard players set $256 bbl.constant 256
 scoreboard players set $300 bbl.constant 300
 scoreboard players set $600 bbl.constant 600
 

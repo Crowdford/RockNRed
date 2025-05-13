@@ -1,6 +1,12 @@
 
 scoreboard players set $valid bbl.main 0
 
+execute if score $slot_type bbl.main matches 256 store success score $valid bbl.main if score $slot_flag bbl.main >= $256 bbl.constant run scoreboard players remove $slot_flag bbl.main 256
+execute if score $valid bbl.main matches 1 run tag @s add valid
+execute unless score $slot_type bbl.main matches 256 if score $slot_flag bbl.main >= $256 bbl.constant run scoreboard players remove $slot_flag bbl.main 256
+execute if score $slot_type bbl.main matches 128 store success score $valid bbl.main if score $slot_flag bbl.main >= $128 bbl.constant run scoreboard players remove $slot_flag bbl.main 128
+execute if score $valid bbl.main matches 1 run tag @s add valid
+execute unless score $slot_type bbl.main matches 128 if score $slot_flag bbl.main >= $128 bbl.constant run scoreboard players remove $slot_flag bbl.main 128
 execute if score $slot_type bbl.main matches 64 store success score $valid bbl.main if score $slot_flag bbl.main >= $64 bbl.constant run scoreboard players remove $slot_flag bbl.main 64
 execute if score $valid bbl.main matches 1 run tag @s add valid
 execute unless score $slot_type bbl.main matches 64 if score $slot_flag bbl.main >= $64 bbl.constant run scoreboard players remove $slot_flag bbl.main 64

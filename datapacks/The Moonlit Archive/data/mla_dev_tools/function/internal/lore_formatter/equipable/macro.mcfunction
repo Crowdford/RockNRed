@@ -1,0 +1,2 @@
+
+$data modify block 10000000 1 10000000 Items[0].components."minecraft:lore" append value ["",{text:"While Equipped (",italic:false,color:"gray"},{text:"",italic:false,color:"$(mainhand)"},{text:"",italic:false,color:"$(head)"},{text:"",italic:false,color:"$(chest)"},{text:"",italic:false,color:"$(legs)"},{text:"",italic:false,color:"$(feet)"},{text:"",italic:false,color:"$(trinket)"},{text:"",italic:false,color:"$(wings)"},{text:"",italic:false,color:"$(runecore)"},{text:"",italic:false,color:"$(blood)"},{text:"):",italic:false,color:"gray"}]
