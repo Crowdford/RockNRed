@@ -13,7 +13,7 @@ data remove storage bbl:buildhorse sudo_root.build_enchants
 data remove storage bbl:buildhorse sudo_root.build_attributes
 data modify storage bbl:buildhorse sudo_root.build_enchants set value [{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]
 
-item replace block 10000000 1 10000000 container.0 with clock[equippable={slot:"body",equip_sound:"ui.loom.take_result",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},unbreakable={},max_stack_size=1,custom_name={"bold":true,"color":"#FF2921","italic":false,"text":"The Evil and Intimidating Horse:"}] 1
+item replace block 10000000 1 10000000 container.0 with clock[equippable={slot:"body",equip_sound:"block.candle.ambient",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},unbreakable={},max_stack_size=1,custom_name={"bold":true,"color":"#FF2921","italic":false,"text":"The Evil and Intimidating Horse:"}] 1
 data modify storage bbl:buildhorse sudo_root.horse set from block 10000000 1 10000000 Items[0]
 
 #say check
@@ -73,7 +73,7 @@ data modify storage bbl:buildhorse sudo_root.horse.components."minecraft:attribu
 
 data modify block 10000000 1 10000000 Items[0] set from storage bbl:buildhorse sudo_root.horse
 item replace entity @s armor.body from block 10000000 1 10000000 container.0
-stopsound @s * minecraft:ui.loom.take_result
+stopsound @s * minecraft:block.candle.ambient
 
 
 #execute store result score $slot_check bbl.main run scoreboard players get @s mla.trinkets.slot.1.type
