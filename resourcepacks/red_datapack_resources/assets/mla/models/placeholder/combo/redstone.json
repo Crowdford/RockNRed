@@ -1,0 +1,10 @@
+{
+	"parent": "mla:parents/placeholder/combo",
+	"textures": {
+		"side": "mla:placeholder/center/redstone",
+		"top": "mla:placeholder/center/redstone",
+		"bottom": "mla:placeholder/center/redstone",
+		"outline": "mla:placeholder/outline/monument",
+		"particle": "mla:placeholder/outline/monument"
+	}
+}

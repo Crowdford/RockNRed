@@ -1,0 +1,7 @@
+{
+	"parent": "mla:parents/placeholder/outline",
+	"textures": {
+		"outline": "mla:placeholder/outline/red",
+		"particle": "mla:placeholder/outline/red"
+	}
+}

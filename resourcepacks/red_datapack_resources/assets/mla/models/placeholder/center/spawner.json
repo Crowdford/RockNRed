@@ -1,0 +1,9 @@
+{
+	"parent": "mla:parents/placeholder/center",
+	"textures": {
+		"side": "mla:placeholder/center/spawner",
+		"top": "mla:placeholder/center/spawner",
+		"bottom": "mla:placeholder/center/spawner",
+		"particle": "mla:placeholder/outline/white"
+	}
+}

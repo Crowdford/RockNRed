@@ -1,0 +1,9 @@
+{
+	"parent": "mla:parents/placeholder/center",
+	"textures": {
+		"side": "mla:placeholder/center/poi/side",
+		"top": "mla:placeholder/center/poi/top",
+		"bottom": "mla:placeholder/center/bottom",
+		"particle": "mla:placeholder/outline/white"
+	}
+}

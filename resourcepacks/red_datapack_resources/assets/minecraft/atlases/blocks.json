@@ -26,47 +26,327 @@
         },
         {
             "type": "single",
-            "resource": "inasa:placeholder/redstone_dust"
+            "resource": "inasa:inventory/blank"
         },
         {
             "type": "single",
-            "resource": "inasa:placeholder/outline"
+            "resource": "inasa:inventory/book"
         },
         {
             "type": "single",
-            "resource": "inasa:placeholder/block/stone"
+            "resource": "inasa:inventory/cancel"
         },
         {
             "type": "single",
-            "resource": "inasa:placeholder/block/tnt/side"
+            "resource": "inasa:inventory/down"
         },
         {
             "type": "single",
-            "resource": "inasa:placeholder/block/tnt/top"
+            "resource": "inasa:inventory/edit"
         },
         {
             "type": "single",
-            "resource": "inasa:placeholder/block/tnt/bottom"
+            "resource": "inasa:inventory/info"
         },
         {
             "type": "single",
-            "resource": "rim:bags/basic/neutral/closed"
+            "resource": "inasa:inventory/left"
         },
         {
             "type": "single",
-            "resource": "rim:bags/basic/neutral/open"
+            "resource": "inasa:inventory/plus"
         },
         {
             "type": "single",
-            "resource": "rim:bag/dye_station/side"
+            "resource": "inasa:inventory/right"
         },
         {
             "type": "single",
-            "resource": "rim:bag/dye_station/bottom"
+            "resource": "inasa:inventory/rose"
         },
         {
             "type": "single",
-            "resource": "rim:bag/dye_station/top"
+            "resource": "inasa:inventory/up"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/a"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/b"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/c"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/d"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/dash"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/e"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/f"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/g"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/h"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/i"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/j"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/k"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/l"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/m"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/n"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/o"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/p"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/q"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/r"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/s"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/t"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/u"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/v"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/w"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/x"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/y"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/alphabet/z"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/edit/name"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/0"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/1"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/2"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/3"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/4"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/5"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/6"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/7"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/8"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:inventory/number/9"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/chest/side"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/chest/top"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/chest/bottom"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/white"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/note"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/poi/side"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/poi/top"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/bottom"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/redstone"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/spawner"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/tnt/side"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/tnt/top"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/tnt/bottom"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/monument"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/center/poi/bottom"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/black"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/blue"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/brown"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/cyan"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/gray"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/green"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/light_blue"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/light_gray"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/lime"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/magenta"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/orange"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/other"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/pink"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/purple"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/red"
+        },
+        {
+            "type": "single",
+            "resource": "mla:placeholder/outline/yellow"
+        },
+        {
+            "type": "single",
+            "resource": "inasa:shitpost/vineboom"
         }
     ]
 }
