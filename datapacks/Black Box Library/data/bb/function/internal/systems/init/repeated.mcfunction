@@ -12,9 +12,6 @@ execute unless score @s bbl.move.mouse_angle.listen matches 0..2147483647 run sc
 execute unless score @s bbl.universal_active_enderchest.cooldown_switch matches -2147483647..2147483647 run scoreboard players set @s bbl.universal_active_enderchest.cooldown_switch 0
 execute unless score @s bbl.universal_active_enderchest.menu_id matches -2147483647..2147483647 run scoreboard players set @s bbl.universal_active_enderchest.menu_id 1
 
-#Tag function
-function #minecraft:bbl/init/repeated
-
 #peko emoji
 execute if entity @s[name=RockNRed] run tag @s add degenerate
 execute if entity @s[name=Tris_] run tag @s add degenerate
@@ -36,3 +33,6 @@ data remove block 10000000 1 10000000 Items
 loot insert 10000000 1 10000000 loot bb:player_head
 data modify storage bbl:pldata sudo_root.working_data.bbl.name set from block 10000000 1 10000000 Items[0].components.minecraft:profile.name
 function bb:internal/systems/pldata/write
+
+#Tag function
+function #minecraft:bbl/init/repeated

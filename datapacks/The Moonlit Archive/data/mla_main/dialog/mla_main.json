@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:multi_action",
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 1,
+  "title": "Quick Menu / MLA",
+  "actions": [
+    {
+      "label": "Dev Tools",
+      "tooltip": "Mapmaking dev tools",
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 3"
+      }
+    }
+  ]
+}

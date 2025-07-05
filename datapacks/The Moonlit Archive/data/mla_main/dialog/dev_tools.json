@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "columns": 1,
+  "title": "Quick Menu / MLA / Dev Tools",
+  "actions": [
+    {
+      "label": "Placeholders",
+      "tooltip": "Placeholders for future placed blocks, loot, spawners etc.",
+      "width": 100,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 4"
+      }
+    },
+    {
+      "label": "Toggle Nightvision",
+      "tooltip": "I can see forever!",
+      "width": 100,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 6"
+      }
+    },
+    {
+      "label": "Toggle TrisSwitch™",
+      "tooltip": "Look upwards to switch to spectator and downwards to switch to creative.",
+      "width": 110,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Placeholders represent where you want something to be placed later on, or can be used to leave temporary messages.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "They come in a few preset forms that can be given below. Their type and other settings such as leaving a note is interchangable on interaction.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The color buttons below control what color the outline of your placeholders is by default, which can be used to represent the area they belong to.",
+      "width": 300
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "title": "Quick Menu / MLA / Dev Tools / Placeholders",
+  "actions": [
+    {
+      "label": "+Placeholder (Chest)",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 5"
+      }
+    },
+    {
+      "label": "+Placeholder (Spawner)",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 8"
+      }
+    },
+    {
+      "label": "+Placeholder (Note)",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 9"
+      }
+    },
+    {
+      "label": "+Placeholder (TNT)",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 10"
+      }
+    },
+    {
+      "label": "+Placeholder (Redstone)",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 11"
+      }
+    },
+    {
+      "label": "+Placeholder (POI)",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 12"
+      }
+    },
+    {
+      "label": " ",
+      "width": 5
+    },
+    {
+      "label": "",
+      "width": 5
+    },
+    {
+      "label": "",
+      "width": 5
+    },
+    {
+      "label": "Outline: White",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 1"
+      }
+    },
+    {
+      "label": "Outline: Orange",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 2"
+      }
+    },
+    {
+      "label": "Outline: Magenta",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 3"
+      }
+    },
+    {
+      "label": "Outline: Light Blue",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 4"
+      }
+    },
+    {
+      "label": "Outline: Yellow",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 5"
+      }
+    },
+    {
+      "label": "Outline: Lime",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 6"
+      }
+    },
+    {
+      "label": "Outline: Pink",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 7"
+      }
+    },
+    {
+      "label": "Outline: Gray",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 8"
+      }
+    },
+    {
+      "label": "Outline: Light Gray",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 9"
+      }
+    },
+    {
+      "label": "Outline: Cyan",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 10"
+      }
+    },
+    {
+      "label": "Outline: Purple",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 11"
+      }
+    },
+    {
+      "label": "Outline: Blue",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 12"
+      }
+    },
+    {
+      "label": "Outline: Brown",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 13"
+      }
+    },
+    {
+      "label": "Outline: Green",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 14"
+      }
+    },
+    {
+      "label": "Outline: Red",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 15"
+      }
+    },
+    {
+      "label": "Outline: Black",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 16"
+      }
+    },
+    {
+      "label": "Outline: Monument",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 17"
+      }
+    },
+    {
+      "label": "Outline: Other",
+      "width": 135,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.outline_color set 18"
+      }
+    }
+  ],
+  "dialogs": []
+}

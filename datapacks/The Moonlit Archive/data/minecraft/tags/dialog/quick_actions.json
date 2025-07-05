@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "mla_main:quick_action",
+      "required": true
+    }
+  ]
+}

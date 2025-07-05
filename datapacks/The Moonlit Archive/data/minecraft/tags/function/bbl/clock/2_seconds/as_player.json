@@ -1,5 +1,6 @@
 {
 	"values": [
-		"mla_trinkets:internal/clocks/2_seconds/as_player"
+		"mla_trinkets:internal/clocks/2_seconds/as_player",
+		"mla_event_tools:internal/clocks/2_seconds/as_player"
 	]
 }

@@ -1,6 +1,7 @@
 {
     "values": [
         "mla_trinkets:internal/inventory_or_slot_changed",
-        "mla_dev_tools:internal/inventory_or_slot_changed"
+        "mla_dev_tools:internal/inventory_or_slot_changed",
+        "mla_event_tools:internal/inventory_or_slot_changed"
     ]
 }

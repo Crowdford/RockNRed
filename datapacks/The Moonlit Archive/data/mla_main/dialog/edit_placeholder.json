@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "WARNING: Changes you make will effect the closest placeholder marked as \"editing\"- (clicked by a player) this can cause weird behavior when multiple players attempt to edit different placeholders near each other!",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Modify Placeholder:"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Prior type and note are not present- make sure you're not overwriting something important!"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:single_option",
+      "key": "type",
+      "width": 100,
+      "label": "Type",
+      "options": [
+        {
+          "id": "chest",
+          "display": "Chest"
+        },
+        {
+          "id": "spawner",
+          "display": "Spawner"
+        },
+        {
+          "id": "note",
+          "display": "Note"
+        },
+        {
+          "id": "tnt",
+          "display": "TNT"
+        },
+        {
+          "id": "redstone",
+          "display": "Redstone"
+        },
+        {
+          "id": "poi",
+          "display": "POI"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:text",
+      "key": "note",
+      "width": 300,
+      "label": "Note",
+      "label_visible": true,
+      "initial": "No Note",
+      "max_length": 999
+    }
+  ],
+  "can_close_with_escape": false,
+  "pause": false,
+  "after_action": "close",
+  "columns": 3,
+  "title": "MLA / Dev Tools / Placeholders / Edit",
+  "actions": [
+    {
+      "label": "Confirm: Edit Nearest Marked",
+      "width": 160,
+      "action": {
+        "type": "dynamic/run_command",
+        "command": "/data merge entity @e[type=minecraft:interaction,tag=mla.interaction.placeholder.editing,limit=1,sort=nearest] {Tags:[\"mla.interaction.placeholder.$(type)\",\"mla.interaction.placeholder\",\"mla.interaction.any\",\"mla.object\",\"mla.interaction\",\"mla.edited\"]}",
+        "template": "data merge entity @e[distance=..8,type=minecraft:interaction,tag=mla.interaction.placeholder.editing,limit=1,sort=nearest] {data:{mlanote:\"$(note)\"},Tags:[\"mla.interaction.placeholder.$(type)\",\"mla.interaction.placeholder\",\"mla.interaction.any\",\"mla.object\",\"mla.interaction\",\"mla.edited\"]}"
+      }
+    },
+    {
+      "label": "Cancel: Remove all nearby Marked",
+      "width": 190,
+      "action": {
+        "type": "run_command",
+        "command": "/trigger mla.main.trigger set 13"
+      }
+    }
+  ],
+  "dialogs": []
+}
