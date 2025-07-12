@@ -3,6 +3,8 @@
 		"mla_trinkets:internal/load",
 		"mla_main:internal/load",
 		"mla_dev_tools:internal/load",
-		"mla_event_tools:internal/load"
+		"mla_event_tools:internal/load",
+		"mla_map_exclusive:internal/load",
+		"mla_reoccurring_mechs:internal/load"
 	]
 }
