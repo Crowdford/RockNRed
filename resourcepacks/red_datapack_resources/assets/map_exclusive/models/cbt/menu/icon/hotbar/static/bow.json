@@ -1,0 +1,6 @@
+{
+	"parent": "rocknred:parents/static",
+	"textures": {
+		"layer0": "map_exclusive:cbt/menu/icon/hotbar/static/bow"
+	}
+}

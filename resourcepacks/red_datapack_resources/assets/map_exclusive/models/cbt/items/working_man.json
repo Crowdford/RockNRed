@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/stone_pickaxe",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/working_man"
+	}
+}

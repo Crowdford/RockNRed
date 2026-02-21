@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "-": 1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "respawn.png",
+      "ascent": 1500,
+      "height": 3000,
+      "chars": [
+        "a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "todo.png",
+      "ascent": 11,
+      "height": 150,
+      "chars": [
+        "b"
+      ]
+    }
+  ]
+}

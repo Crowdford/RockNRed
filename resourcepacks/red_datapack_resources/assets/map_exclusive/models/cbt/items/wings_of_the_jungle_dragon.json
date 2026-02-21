@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/leather_helmet",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/wings_of_the_jungle_dragon"
+	}
+}

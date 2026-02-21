@@ -1,4 +1,4 @@
 
 #Save to player data
 
-function bb:lib/tp_to_xyz/internal_call
+function bb:internal/systems/tp_to_xyz/internal_call

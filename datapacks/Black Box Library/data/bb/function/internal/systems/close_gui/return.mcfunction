@@ -8,3 +8,4 @@ function bb:internal/systems/close_gui/return_gamerules with storage bbl:close_g
 
 tag @s remove bbl.tp_back_from_portal
 scoreboard players set @s bbl.close_gui.stop_portal_sound 1
+

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/bucket_of_brimstone"
+	}
+}

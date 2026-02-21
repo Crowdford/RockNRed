@@ -1,0 +1,6 @@
+{
+	"parent": "map_exclusive:parents/handheld_32_wayfinder",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/cartographers_wayfinder"
+	}
+}

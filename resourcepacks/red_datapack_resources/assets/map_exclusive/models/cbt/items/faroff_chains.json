@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/genherated",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/faroff_chains"
+	}
+}

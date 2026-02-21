@@ -1,5 +1,5 @@
 
-execute as @p[advancements={mla_main:interact/right=true}] at @s run function bb:lib/pldata/read/call/call
+execute as @p[advancements={mla_main:interact/right=true}] at @s run function bb:lib/pldata/read/call
 
 execute store result storage mla:temp sudo_root.block.num int 1 run data get entity @p[advancements={mla_main:interact/right=true}] SelectedItemSlot
 

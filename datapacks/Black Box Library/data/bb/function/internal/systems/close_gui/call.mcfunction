@@ -1,9 +1,9 @@
 
-execute store result storage bbl:close_gui sudo_root.portal_delay.creative int 1 run gamerule playersNetherPortalCreativeDelay
-execute store result storage bbl:close_gui sudo_root.portal_delay.default int 1 run gamerule playersNetherPortalDefaultDelay
+execute store result storage bbl:close_gui sudo_root.portal_delay.creative int 1 run gamerule players_nether_portal_creative_delay
+execute store result storage bbl:close_gui sudo_root.portal_delay.default int 1 run gamerule players_nether_portal_default_delay
 
-gamerule playersNetherPortalCreativeDelay 1000
-gamerule playersNetherPortalDefaultDelay 1000
+gamerule players_nether_portal_creative_delay 1000
+gamerule players_nether_portal_default_delay 1000
 
 function bb:internal/systems/tp_to_xyz/get_xyz
 

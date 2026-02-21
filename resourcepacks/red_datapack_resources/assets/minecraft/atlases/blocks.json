@@ -10,6 +10,466 @@
         },
         {
             "type": "single",
+            "resource": "map_exclusive:blocks/gato"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:blocks/lapis/granite"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/archivists_sabre"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/axolotl_blood"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/bhoppers_battleaxe"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/bitcrush"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/blade_of_the_usurper"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/box_of_unspeakable_devices"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/breaching_blow"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/broken_halo"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/bucket_of_brimstone"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/calcite_cauldron"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/cartographers_deathglass"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/cartographers_wayfinder"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/chastity_chalk"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/cheese_caper"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/choker"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/comfort_croptop"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/demonbane"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/depraved_dust"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/dirty_mind"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/empress_aegis"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/empty_clawshot"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/enchanted_kneesocks"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/enthralling_sigil"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/everburning_torchflower"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/faroff_chains"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/flaming_wreath"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/floral_fucker"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/fuzzy_feeling"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/fuzzy_handcuffs"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/gunners_greaves"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/heretical_stride"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/hightailers_dream"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/insanity"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/last_wish"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/lava_lipstick"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/live_fast_dead_hard"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/looming_death"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/lullabylac"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/magic_wand"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/metamorphosis"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/momento_mori"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/mood_wax"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/moonlight_harvester"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/pigskin_plan"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/premature_mining"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/raw_lamb"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/rope"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/rosemail"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/roses_tinted_glasses"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/runetech_rockets"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/saints_omnipotent_power"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/sakura_slicer"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/sanguine_sugar_skull"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/shattered_spearhead"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/slipstream_module"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/smart_rounds"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/splinter"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/starlit"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/strapped_spats"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/thermal_dagger"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/the_perfect_run"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/the_river_nyx"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/tick_tock"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/totem_of_healing"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/unbreakable_stride"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/unholy_potions"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/white_buttonup"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/wings_of_the_jungle_dragon"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/working_man"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/vile_vial/empty"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/items/vile_vial/full"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/bondage"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/go_back"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/la_biblioteca"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/locked"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/ritual"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/block"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/bow"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/clawshot"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/pickaxe"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/remove"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/sword"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/placeable/vial"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/static/block"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/static/bow"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/static/clawshot"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/static/pickaxe"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/static/sword"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/hotbar/static/vial"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/clawshot"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/stat_armor"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/stat_dmg_melee"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/stat_dmg_rng"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/stat_hp"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/stat_kbr"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/stat_speed"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/vial_fight_charge"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/vial_heal"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/icon/shop/vial_max_charge"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/panel/blank"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/panel/bondage"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/panel/hotbar"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/panel/la_biblioteca"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/panel/main"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/menu/panel/ritual"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/world/backpack"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/world/crate/default"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:cbt/world/crate/chain"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:items/lexica_cartographia/main"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:items/lexica_cartographia/text"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:items/roses_tinted_glasses"
+        },
+        {
+            "type": "single",
+            "resource": "map_exclusive:items/wunk_of_undying"
+        },
+        {
+            "type": "single",
             "resource": "inasa:coas/ender_pearl"
         },
         {
@@ -347,6 +807,174 @@
         {
             "type": "single",
             "resource": "inasa:shitpost/vineboom"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/adriana"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/aeldrion"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/alex"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/alex_skin"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/april"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/asometric"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/beastmasterftw"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/bishop"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/cloud_wolf"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/comp"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/constanze"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/enshano"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/erika"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/gibbs"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/jess"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/kosmic"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/leilani"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/may"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/melonbp"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/neb"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/pearl"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/pearuhdox"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/ravi"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/ravi_hoodie"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/razboy20"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/rocknred"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/rose"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/siravia"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/steve_skin"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/suso"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/suzy"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/tris"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/v"
+        },
+        {
+            "type": "single",
+            "resource": "player_models:skins/why"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/empty"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/chest"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/core"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/feet"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/head"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/legs"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/trinket"
+        },
+        {
+            "type": "single",
+            "resource": "trinkets:gui/slot_icons/wing"
         }
     ]
 }

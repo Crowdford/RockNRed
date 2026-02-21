@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/live_fast_dead_hard"
+	}
+}

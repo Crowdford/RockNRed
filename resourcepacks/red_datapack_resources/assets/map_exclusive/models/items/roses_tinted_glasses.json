@@ -1,0 +1,6 @@
+{
+	"parent": "map_exclusive:parents/glasses",
+	"textures": {
+		"glasses": "map_exclusive:items/roses_tinted_glasses"
+	}
+}

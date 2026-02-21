@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/iron_sword",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/tick_tock"
+	}
+}

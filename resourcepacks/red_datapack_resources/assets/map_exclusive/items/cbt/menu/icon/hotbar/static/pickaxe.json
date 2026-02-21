@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "map_exclusive:cbt/menu/icon/hotbar/static/pickaxe"
+	}
+}

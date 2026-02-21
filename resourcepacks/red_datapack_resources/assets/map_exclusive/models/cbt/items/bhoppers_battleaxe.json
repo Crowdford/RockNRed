@@ -1,0 +1,6 @@
+{
+	"parent": "map_exclusive:parents/handheld_32",
+	"textures": {
+		"layer0": "map_exclusive:cbt/items/bhoppers_battleaxe"
+	}
+}

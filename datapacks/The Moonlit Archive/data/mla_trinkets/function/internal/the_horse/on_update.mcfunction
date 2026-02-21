@@ -1,6 +1,16 @@
 
 clear @s clock[minecraft:custom_data={mla_trinkets_data:{gui:1}}]
 
+execute unless score @s mla.trinkets.slot.1.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.1.state 0
+execute unless score @s mla.trinkets.slot.2.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.2.state 0
+execute unless score @s mla.trinkets.slot.3.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.3.state 0
+execute unless score @s mla.trinkets.slot.4.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.4.state 0
+execute unless score @s mla.trinkets.slot.5.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.5.state 0
+execute unless score @s mla.trinkets.slot.6.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.6.state 0
+execute unless score @s mla.trinkets.slot.7.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.7.state 0
+execute unless score @s mla.trinkets.slot.8.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.8.state 0
+execute unless score @s mla.trinkets.slot.9.state matches -2147483648..2147483647 run scoreboard players set @s mla.trinkets.slot.9.state 0
+
 scoreboard players set @s mla.trinkets.update_cd 3
 
 item replace entity @s armor.head with clock[item_model="trinkets:gui/empty",equippable={slot:"head",equip_sound:"ui.loom.take_result",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
@@ -18,7 +28,7 @@ data modify storage bbl:buildhorse sudo_root.horse set from block 10000000 1 100
 
 #say check
 
-function bb:lib/pldata/read/call/call
+function bb:lib/pldata/read/call
 
 #1
 data remove storage bbl:temp sudo_root

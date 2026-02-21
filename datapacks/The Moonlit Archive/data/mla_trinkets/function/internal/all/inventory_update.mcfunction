@@ -1,7 +1,9 @@
 
 
-
-function mla_trinkets:internal/validator/main
+#execute unless score @s mla.trinkets.binding_cd matches 1.. run function mla_trinkets:internal/validator/binding_check/main
+execute unless score @s mla.trinkets.binding_cd matches 1.. if entity @s[tag=!great_agony] run function mla_trinkets:internal/validator/main
+tag @s remove great_agony
+execute if score @s mla.trinkets.binding_cd matches 1.. run scoreboard players remove @s mla.trinkets.binding_cd 1
 
 execute unless score @s mla.trinkets.update_cd matches 1.. run function mla_trinkets:internal/the_horse/on_update
 

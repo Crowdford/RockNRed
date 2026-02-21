@@ -1,0 +1,46 @@
+{
+	"providers": [
+		{
+			"type": "space",
+			"advances": {
+				"X": 5,
+				"<": -5
+			}
+		},
+		{
+			"type": "bitmap",
+			"file": "gui/grapple_can_2.png",
+			"ascent": -2,
+			"height": 4,
+			"chars": [
+				"01"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gui/sword_charge_2.png",
+			"ascent": -5,
+			"height": 2,
+			"chars": [
+				"ABCD",
+				"EFGH",
+				"IJKL",
+				"MNOP",
+				"QYZ\u0000"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "gui/sword_charge_2d.png",
+			"ascent": -5,
+			"height": 2,
+			"chars": [
+				"abcd",
+				"efgh",
+				"ijkl",
+				"mnop",
+				"q\u0000\u0000\u0000"
+			]
+		}
+	]
+}

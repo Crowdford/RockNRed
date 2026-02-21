@@ -699,6 +699,34 @@
           "ascent": 8,
           "height": 8,
           "chars": ["\ue122"]
+        },
+		{
+          "type": "bitmap",
+          "file": "ico_lib:font/icon/windup.png",
+          "ascent": 8,
+          "height": 8,
+          "chars": ["\ue123"]
+        },
+		{
+          "type": "bitmap",
+          "file": "ico_lib:font/icon/windup_bar.png",
+          "ascent": 8,
+          "height": 8,
+          "chars": ["\ue124"]
+        },
+		{
+          "type": "bitmap",
+          "file": "ico_lib:font/icon/windup_key.png",
+          "ascent": 8,
+          "height": 8,
+          "chars": ["\ue125"]
+        },
+		{
+          "type": "bitmap",
+          "file": "ico_lib:font/icon/spatula.png",
+          "ascent": 8,
+          "height": 8,
+          "chars": ["\ue126"]
         }
     ]
 }

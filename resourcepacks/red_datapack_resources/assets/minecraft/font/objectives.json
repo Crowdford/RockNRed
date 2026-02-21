@@ -1,0 +1,106 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/depraved_dust.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "a" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/chastity_chalk.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "b" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/unholy_potions.png",
+      "ascent": 10, "height": 11,
+      "chars": [ "c" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/bucket_of_brimstone.png",
+      "ascent": 9, "height": 12,
+      "chars": [ "d" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/broken_halo.png",
+      "ascent": 10, "height": 12,
+      "chars": [ "e" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/everburning_torchflower.png",
+      "ascent": 9, "height": 11,
+      "chars": [ "f" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/lullabylac.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "g" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/box_of_unspeakable_devices.png",
+      "ascent": 10, "height": 14,
+      "chars": [ "h" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/saints_omnipotent_power.png",
+      "ascent": 10, "height": 14,
+      "chars": [ "i" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/axolotl_blood.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "j" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/rope.png",
+      "ascent": 11, "height": 13,
+      "chars": [ "k" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/raw_lamb.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "l" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/lava_lipstick.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "m" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/sanguine_sugar_skull.png",
+      "ascent": 9, "height": 12,
+      "chars": [ "n" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/enchanted_kneesocks.png",
+      "ascent": 9, "height": 11,
+      "chars": [ "ñ" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/calcite_cauldron.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "o" ]
+    },
+    {
+      "type": "bitmap",
+      "file": "rocknred:items/mood_wax.png",
+      "ascent": 12.5, "height": 14,
+      "chars": [ "p" ]
+    }
+  ]
+}

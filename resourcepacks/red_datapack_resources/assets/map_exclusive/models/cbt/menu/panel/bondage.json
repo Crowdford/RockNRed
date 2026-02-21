@@ -1,0 +1,6 @@
+{
+	"parent": "map_exclusive:parents/gui",
+	"textures": {
+		"texture": "map_exclusive:cbt/menu/panel/bondage"
+	}
+}
