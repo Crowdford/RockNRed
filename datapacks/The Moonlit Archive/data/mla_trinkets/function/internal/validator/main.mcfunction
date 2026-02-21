@@ -9,7 +9,6 @@ execute store result score $is_gui bbl.main run data get storage bbl:pldata sudo
 scoreboard players operation $slot_type bbl.main = @s mla.trinkets.slot.1.type
 #compare
 function mla_trinkets:internal/validator/check
-
 #dropo
 execute if data storage bbl:pldata sudo_root.working_data.bbl.inventory.current_tick[{Slot:9b}] if entity @s[tag=!valid] run function mla_trinkets:internal/validator/reject_slot/1
 

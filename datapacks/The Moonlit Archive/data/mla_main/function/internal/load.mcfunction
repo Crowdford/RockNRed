@@ -10,6 +10,7 @@ execute unless score $module_enabled.reoccuring_mechs mla.main matches -21474836
 execute unless score $module_enabled.map_specific.all mla.main matches -2147483648..2147483647 run scoreboard players set $module_enabled.map_specific.all mla.main 0
 execute unless score $module_enabled.map_specific.tiny_blocks mla.main matches -2147483648..2147483647 run scoreboard players set $module_enabled.map_specific.tiny_blocks mla.main 0
 execute unless score $module_enabled.map_specific.shrink mla.main matches -2147483648..2147483647 run scoreboard players set $module_enabled.map_specific.shrink mla.main 0
+execute unless score $module_enabled.archive mla.main matches -2147483648..2147483647 run scoreboard players set $module_enabled.archive mla.main 0
 
 scoreboard objectives add mla.main.trigger trigger
 scoreboard objectives add mla.main.outline_color trigger

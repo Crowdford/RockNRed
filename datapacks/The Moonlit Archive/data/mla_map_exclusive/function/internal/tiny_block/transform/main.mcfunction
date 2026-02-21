@@ -9,3 +9,6 @@ execute if score @s mla.map_exclusive.tiny_block_type matches 7 run function mla
 execute if score @s mla.map_exclusive.tiny_block_type matches 8 run function mla_map_exclusive:internal/tiny_block/transform/bricks
 execute if score @s mla.map_exclusive.tiny_block_type matches 9 run function mla_map_exclusive:internal/tiny_block/transform/glowstone
 execute if score @s mla.map_exclusive.tiny_block_type matches 10 run function mla_map_exclusive:internal/tiny_block/transform/fog
+execute if score @s mla.map_exclusive.tiny_block_type matches 11 run function mla_map_exclusive:internal/tiny_block/transform/lapis
+execute if score @s mla.map_exclusive.tiny_block_type matches 12 run function mla_map_exclusive:internal/tiny_block/transform/wool
+execute if score @s mla.map_exclusive.tiny_block_type matches 13 run function mla_map_exclusive:internal/tiny_block/transform/cat

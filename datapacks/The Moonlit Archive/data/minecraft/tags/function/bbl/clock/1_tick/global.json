@@ -2,6 +2,7 @@
 	"values": [
 		"mla_main:internal/clocks/1_tick/global",
 		"mla_map_exclusive:internal/clocks/1_tick/global",
-		"mla_reoccurring_mechs:internal/clocks/1_tick/global"
+		"mla_reoccurring_mechs:internal/clocks/1_tick/global",
+		"mla_archive:internal/clocks/1_tick/global"
 	]
 }

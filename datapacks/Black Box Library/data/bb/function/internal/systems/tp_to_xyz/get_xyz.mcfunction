@@ -16,6 +16,6 @@ execute store result score @s bbl.tp_xyz.y run data get entity @s Pos[1]
 execute store result score @s bbl.tp_xyz.z run data get entity @s Pos[2]
 
 #Save to player data
-function bb:lib/pldata/read
+function bb:lib/pldata/read/call
 data modify storage bbl:pldata sudo_root.working_data.tp_to_xyz_saved_pos set from entity @s Pos
-function bb:lib/pldata/write
+function bb:lib/pldata/write/call

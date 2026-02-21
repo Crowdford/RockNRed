@@ -1,4 +1,6 @@
 
+
+
 function mla_trinkets:internal/validator/main
 
 execute unless score @s mla.trinkets.update_cd matches 1.. run function mla_trinkets:internal/the_horse/on_update

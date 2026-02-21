@@ -18,7 +18,7 @@ data modify storage bbl:buildhorse sudo_root.horse set from block 10000000 1 100
 
 #say check
 
-function bb:lib/pldata/read/call
+function bb:lib/pldata/read/call/call
 
 #1
 data remove storage bbl:temp sudo_root

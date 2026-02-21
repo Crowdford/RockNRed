@@ -5,7 +5,7 @@ execute if score $player.health_before_hbc bbl.main > $player.health bbl.main st
 execute if score $player.health bbl.main matches -99..-1 run scoreboard players operation @s bbl.damage_queue += $player.health bbl.main
 
 #Setting health offset
-execute store result score $player.health bbl.main run attribute @s minecraft:generic.max_health get
+execute store result score $player.health bbl.main run attribute @s minecraft:max_health get
 scoreboard players operation $player.max_health bbl.main = $player.health bbl.main
 scoreboard players operation $player.health bbl.main -= @s bbl.p_health
 scoreboard players operation @s bbl.damage_queue += $player.health bbl.main
@@ -20,7 +20,7 @@ execute if score @s bbl.damage_queue matches 31.. run function bb:lib/hpm/player
 
 #Finalization
 effect clear @s minecraft:health_boost
-attribute @s minecraft:generic.max_health modifier remove 31514192-0114-2651-8151-950000000006
+attribute @s minecraft:max_health modifier remove 31514192-0114-2651-8151-950000000006
 
 execute if score @s bbl.damage_queue matches -99..-1 run function bb:lib/hpm/player_damage_true/heal_from_hb_damage
 

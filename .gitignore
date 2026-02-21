@@ -20,3 +20,8 @@
 /data
 session.lock
 /datapacks/*.zip
+/datapacks/*Cartographer*
+/datapacks/*bs.math*
+/datapacks/*Entity Hit Detection*
+/datapacks/*Player Motion*
+/datapacks/*Mob Motion*

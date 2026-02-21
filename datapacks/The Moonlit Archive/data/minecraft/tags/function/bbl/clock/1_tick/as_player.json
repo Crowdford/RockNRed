@@ -5,6 +5,7 @@
 		"mla_event_tools:internal/clocks/1_tick/as_player",
 		"mla_main:internal/clocks/1_tick/as_player",
 		"mla_map_exclusive:internal/clocks/1_tick/as_player",
-		"mla_reoccurring_mechs:internal/clocks/1_tick/as_player"
+		"mla_reoccurring_mechs:internal/clocks/1_tick/as_player",
+		"mla_archive:internal/clocks/1_tick/as_player"
 	]
 }

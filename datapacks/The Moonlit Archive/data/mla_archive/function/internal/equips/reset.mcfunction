@@ -1,0 +1,37 @@
+
+scoreboard players set @s mla.red_text.shining_night 0
+scoreboard players set @s mla.red_text.wax_will 0
+scoreboard players set @s mla.red_text.yggdrasil 0
+scoreboard players set @s mla.red_text.money_where_your_mouth_is 0
+scoreboard players set @s mla.red_text.post_matrimony 0
+scoreboard players set @s mla.red_text.untouchable 0
+scoreboard players set @s mla.red_text.sneak_attack 0
+scoreboard players set @s mla.red_text.blue_bottled_boost 0
+scoreboard players set @s mla.red_text.creativity 0
+scoreboard players set @s mla.red_text.runetech_rockets 0
+scoreboard players set @s mla.red_text.all_tied_up 0
+scoreboard players set @s mla.red_text.moonlight_harvester 0
+scoreboard players set @s mla.red_text.totem_of_healing 0
+scoreboard players set @s mla.red_text.smart_rounds 0
+scoreboard players set @s mla.red_text.overclock 0
+scoreboard players set @s mla.red_text.insatiable_thirst 0
+scoreboard players set @s mla.red_text.counterbreak 0
+scoreboard players set @s mla.red_text.good_vibes 0
+scoreboard players set @s mla.red_text.spearhead 0
+scoreboard players set @s mla.red_text.forbidden_ascension 0
+scoreboard players set @s mla.red_text.doom_approaches 0
+scoreboard players set @s mla.red_text.spikey_bastion 0
+scoreboard players set @s mla.red_text.clean_getaway 0
+scoreboard players set @s mla.red_text.potential_among_the_stars 0
+scoreboard players set @s mla.red_text.brilliant_lavender 0
+scoreboard players set @s mla.red_text.fine_print 0
+scoreboard players set @s mla.red_text.popup 0
+scoreboard players set @s mla.red_text.cant_stop 0
+scoreboard players set @s mla.red_text.we_win_lategame 0
+scoreboard players set @s mla.red_text.born_again_and_again 0
+scoreboard players set @s mla.red_text.mark_of_the_masses 0
+scoreboard players set @s mla.red_text.rememberance 0
+
+scoreboard players set @s satisfactory.vial.mainhand 0
+scoreboard players set @s satisfactory.vial.offhand 0
+scoreboard players set @s mla.red_text.vile_vial 0

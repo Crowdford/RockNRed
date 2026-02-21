@@ -2,7 +2,7 @@
 tag @s remove bbl.inventory_changing
 
 #Read in playerdata
-function bb:lib/pldata/read
+function bb:lib/pldata/read/call
 
 #Save prior ticks raw data
 data remove storage bbl:pldata sudo_root.working_data.bbl.inventory.past_tick

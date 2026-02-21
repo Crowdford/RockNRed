@@ -82,7 +82,7 @@ execute if score @s bbl.move.mute matches 1.. run function bb:internal/systems/m
 #Mouse listener
 execute if score @s bbl.move.mouse_angle.listen matches 1.. if score @s bbl.move.mute matches 0 run function bb:internal/systems/move_detector/mouse_loop
 
-execute if entity @s[tag=delta.kill.fix] run function bb:internal/systems/delta_kill_fix
+#execute if entity @s[tag=delta.kill.fix] run function bb:internal/systems/delta_kill_fix
 
 
 #GUI Closer

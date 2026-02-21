@@ -1,5 +1,6 @@
 {
     "values": [
-        "mla_event_tools:internal/init/repeated"
+        "mla_event_tools:internal/init/repeated",
+		"mla_archive:internal/init/repeated"
     ]
 }

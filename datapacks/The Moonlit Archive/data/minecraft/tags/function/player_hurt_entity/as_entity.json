@@ -1,0 +1,6 @@
+{
+	"values": [
+		"mla_trinkets:internal/load"
+		"mla_archive:internal/actions/player_hurt_entity/as_entity/check_enabled"
+	]
+}
