@@ -21,3 +21,9 @@ scoreboard objectives add mla.trinkets.slot.9.state dummy
 
 scoreboard objectives add mla.trinkets.update_cd dummy
 scoreboard objectives add mla.trinkets.binding_cd dummy
+
+scoreboard objectives add mla.custom_attributes.speed dummy
+scoreboard objectives add mla.custom_attributes.max_hp dummy
+scoreboard objectives add mla.custom_attributes.might dummy
+scoreboard objectives add mla.custom_attributes.magic dummy
+scoreboard objectives add mla.custom_attributes.manip dummy

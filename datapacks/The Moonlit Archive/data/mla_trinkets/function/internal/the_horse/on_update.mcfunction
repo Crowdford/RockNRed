@@ -13,10 +13,12 @@ execute unless score @s mla.trinkets.slot.9.state matches -2147483648..214748364
 
 scoreboard players set @s mla.trinkets.update_cd 3
 
-item replace entity @s armor.head with clock[item_model="trinkets:gui/empty",equippable={slot:"head",equip_sound:"ui.loom.take_result",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
-item replace entity @s armor.chest with clock[item_model="trinkets:gui/empty",equippable={slot:"chest",equip_sound:"ui.loom.take_result",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
-item replace entity @s armor.legs with clock[item_model="trinkets:gui/empty",equippable={slot:"legs",equip_sound:"ui.loom.take_result",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
-item replace entity @s armor.feet with clock[item_model="trinkets:gui/empty",equippable={slot:"feet",equip_sound:"ui.loom.take_result",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
+item replace entity @s armor.head with clock[item_model="trinkets:gui/empty",equippable={slot:"head",equip_sound:"block.candle.ambient",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
+item replace entity @s armor.chest with clock[item_model="trinkets:gui/empty",equippable={slot:"chest",equip_sound:"block.candle.ambient",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
+item replace entity @s armor.legs with clock[item_model="trinkets:gui/empty",equippable={slot:"legs",equip_sound:"block.candle.ambient",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
+item replace entity @s armor.feet with clock[item_model="trinkets:gui/empty",equippable={slot:"feet",equip_sound:"block.candle.ambient",swappable:false,damage_on_hurt:false},enchantments={"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},max_stack_size=1,custom_data={a:1},tooltip_display={hide_tooltip:true}] 1
+
+execute if score $module_enabled.custom_attributes mla.main matches 1.. run function mla_trinkets:internal/slot_display/update_stat_display/main
 
 item replace entity @s armor.body with air
 data remove storage bbl:buildhorse sudo_root.build_enchants

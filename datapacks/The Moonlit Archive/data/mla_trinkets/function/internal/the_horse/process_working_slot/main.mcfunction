@@ -13,3 +13,5 @@ scoreboard players set $is_saving bbl.main -1
 function mla_trinkets:internal/the_horse/process_working_slot/munch_metadata
 
 execute if data storage bbl:temp sudo_root.trinkets.working.slot.components."minecraft:attribute_modifiers" run function mla_trinkets:internal/the_horse/process_working_slot/munch_attributes
+
+execute if score $module_enabled.custom_attributes mla.main matches 1.. if data storage bbl:temp sudo_root.trinkets.working.slot.components."minecraft:custom_data".mla_attributes_data run function mla_trinkets:internal/the_horse/process_working_slot/munch_custom_attributes/main
