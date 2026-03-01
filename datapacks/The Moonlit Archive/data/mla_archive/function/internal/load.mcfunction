@@ -1,2 +1,2 @@
 
-scoreboard objectives add mla.red_text.vile_vial dummy
+#scoreboard objectives add mla.red_text.vile_vial dummy

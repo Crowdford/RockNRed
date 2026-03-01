@@ -6,6 +6,7 @@
 		"mla_event_tools:internal/load",
 		"mla_map_exclusive:internal/load",
 		"mla_reoccurring_mechs:internal/load",
-		"mla_archive:internal/load"
+		"mla_archive:internal/load",
+		"mla_survival:internal/load"
 	]
 }

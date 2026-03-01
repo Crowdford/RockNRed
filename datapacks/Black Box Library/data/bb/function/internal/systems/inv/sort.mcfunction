@@ -13,4 +13,4 @@ execute store result score count bbl.inventory run data get storage bbl:inv inv.
 function bb:internal/systems/inv/save/sort_all
 
 # Reset
-data remove storage bbl:inv inv.new
+#data remove storage bbl:inv inv.new

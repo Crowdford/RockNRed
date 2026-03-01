@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "trinkets:gui/slot_icons/feet"
-	}
-}
