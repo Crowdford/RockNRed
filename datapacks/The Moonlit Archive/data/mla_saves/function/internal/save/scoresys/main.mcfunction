@@ -1,5 +1,6 @@
 
-data remove storage bbl:temp sudo_root.eat_me2
-data modify storage mla:scoresys sudo_root.eat_me set from storage mla:scoresys sudo_root.scores
+data modify storage bbl:temp sudo_root.scores_array set from storage mla:main sudo_root.scoresys.scores
 
 function mla_saves:internal/save/scoresys/build_saved
+
+data remove storage bbl:temp sudo_root

@@ -22,5 +22,8 @@ execute if score @s mla.saves.char_data.animal matches 0 run data modify storage
 execute if score @s mla.saves.char_data.pronouns matches 0 run data modify storage bbl:temp sudo_root.pronouns set value "mla.saves.create_char.click"
 
 execute unless score @s mla.saves.make_char matches 5 run function mla_saves:internal/create/macro with storage bbl:temp sudo_root
+execute if score @s mla.saves.make_char matches 5 run function mla_saves:internal/save/post_save
 
 scoreboard players set @s mla.saves.make_char 0
+
+data remove storage bbl:temp sudo_root
