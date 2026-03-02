@@ -14,3 +14,4 @@ scoreboard players enable @s mla.saves.select_character
 scoreboard players enable @s mla.saves.make_char
 
 tag @s remove mla.saves.first
+data remove storage bbl:temp sudo_root
