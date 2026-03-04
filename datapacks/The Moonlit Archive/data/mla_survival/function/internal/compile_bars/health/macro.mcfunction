@@ -7,7 +7,7 @@ $data modify storage bbl:concat sudo_root.array append string storage mla:surviv
 $data modify storage bbl:concat sudo_root.array append string storage mla:survival sudo_root.prebuilt.hud.bars.health.void $(index_normal) 148
 
 function bb:internal/systems/string_manip/concat/start
-data modify storage mla:survival sudo_root.built.hud.bar.health.normal set from storage bbl:concat sudo_root.string
+data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.normal set from storage bbl:concat sudo_root.string
 
 
 data remove storage bbl:concat sudo_root.array
@@ -17,10 +17,10 @@ $data modify storage bbl:concat sudo_root.array append string storage mla:surviv
 
 function bb:internal/systems/string_manip/concat/start
 
-data modify storage mla:survival sudo_root.built.hud.bar.health.flash set from storage bbl:concat sudo_root.string
+data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.flash set from storage bbl:concat sudo_root.string
 
-$execute if score $temp8 bbl.main matches 0..9 run data modify storage mla:survival sudo_root.built.hud.bar.health.numbers set value "$(current_hp)----"
-$execute if score $temp8 bbl.main matches 10..99 run data modify storage mla:survival sudo_root.built.hud.bar.health.numbers set value "$(current_hp)---"
-$execute if score $temp8 bbl.main matches 100..999 run data modify storage mla:survival sudo_root.built.hud.bar.health.numbers set value "$(current_hp)--"
-$execute if score $temp8 bbl.main matches 1000..9999 run data modify storage mla:survival sudo_root.built.hud.bar.health.numbers set value "$(current_hp)-"
-$execute if score $temp8 bbl.main matches 10000..99999 run data modify storage mla:survival sudo_root.built.hud.bar.health.numbers set value "$(current_hp)"
+$execute if score $temp8 bbl.main matches 0..9 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.numbers set value "$(current_hp)----"
+$execute if score $temp8 bbl.main matches 10..99 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.numbers set value "$(current_hp)---"
+$execute if score $temp8 bbl.main matches 100..999 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.numbers set value "$(current_hp)--"
+$execute if score $temp8 bbl.main matches 1000..9999 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.numbers set value "$(current_hp)-"
+$execute if score $temp8 bbl.main matches 10000..99999 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.health.numbers set value "$(current_hp)"
