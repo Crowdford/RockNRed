@@ -78,8 +78,8 @@ data modify storage bbl:temp sudo_root.trinkets.working.slot set from storage bb
 execute if data storage bbl:pldata sudo_root.working_data.bbl.inventory.current_tick[{Slot:17b}] run function mla_trinkets:internal/the_horse/process_working_slot/main
 
 
-execute if data storage bbl:buildhorse sudo_root.build_enchants run function mla_trinkets:internal/the_horse/enchants/compile
-function mla_trinkets:internal/the_horse/enchants/set_enchants with storage bbl:concat sudo_root
+#execute if data storage bbl:buildhorse sudo_root.build_enchants run function mla_trinkets:internal/the_horse/enchants/compile
+#function mla_trinkets:internal/the_horse/enchants/set_enchants with storage bbl:concat sudo_root
 
 execute if data storage mla:temp sudo_root.trinkets.working.custom_attributes_array[0] run function mla_trinkets:internal/the_horse/custom_attributes/sort/main
 function mla_trinkets:internal/the_horse/custom_attributes/apply/main
