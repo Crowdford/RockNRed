@@ -14,8 +14,7 @@ execute unless predicate bb:is_sprinting run attribute @s minecraft:movement_spe
 
 execute unless predicate bb:is_sprinting unless score @s mla.survival.stamina.current >= @s mla.survival.stamina.max if score @s mla.survival.stamina.delay matches ..1 run scoreboard players add @s mla.survival.stamina.current 1
 
-execute if score @s mla.survival.jump matches 1.. if score @s mla.survival.stamina.current matches -10.. run scoreboard players remove @s mla.survival.stamina.current 7
-execute if score @s mla.survival.jump matches 1.. run scoreboard players set @s mla.survival.jump 0
+execute if score @s mla.survival.jump matches 1.. run function mla_survival:internal/survival/jump
 
 execute if predicate bb:is_sprinting run scoreboard players set @s mla.survival.stamina.delay 20
 
