@@ -1,7 +1,7 @@
 
 data remove storage mla:survival sudo_root.prebuilt
 
-data modify storage mla:survival sudo_root.prebuilt.hud.adjust.base set value "\uF80B\uF80B\uF809\uF805"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.base set value "\uF828"
 data modify storage mla:survival sudo_root.prebuilt.hud.adjust.outer_to_inner set value "\uF80B\uF808\uF803"
 data modify storage mla:survival sudo_root.prebuilt.hud.adjust.inner_to_flash set value "\uF80B\uF808\uF802"
 data modify storage mla:survival sudo_root.prebuilt.hud.adjust.flash_to_idle set value "\uF80B\uF808\uF802"
@@ -11,9 +11,14 @@ data modify storage mla:survival sudo_root.prebuilt.hud.adjust.filled_heart_to_n
 data modify storage mla:survival sudo_root.prebuilt.hud.adjust.numbers_to_hotbar set value "\uF80A\uF808\uF802"
 data modify storage mla:survival sudo_root.prebuilt.hud.adjust.hotbar_to_selector set value "\uF80C\uF80A\uF809\uF808"
 data modify storage mla:survival sudo_root.prebuilt.hud.adjust.selector_to_stamina_outline set value "\uF82B\uF828\uF827"
-data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_outline_to_inner set value "\uF809\uF808\uF808"
-data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_inner_to_flash set value "\uF809\uF808\uF808"
-data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_flash_to_full set value "\uF809\uF808\uF808"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_outline_to_inner set value "\uF809\uF808\uF806"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_inner_to_flash set value "\uF809\uF808\uF806"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_flash_to_full set value "\uF809\uF808\uF806"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.stamina_full_to_bolt set value "\uF807"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.bolt_to_sickness set value "\uF802"
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.sickness_to_sleep set value ""
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.sleep_to_thirst set value ""
+data modify storage mla:survival sudo_root.prebuilt.hud.adjust.thirst_to_hunger set value "\uF801"
 
 data modify storage mla:survival sudo_root.prebuilt.hud.bars.health.empty.inner set value "\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e"
 data modify storage mla:survival sudo_root.prebuilt.hud.bars.health.empty.outer.black set value "\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801f"
@@ -27,12 +32,12 @@ data modify storage mla:survival sudo_root.prebuilt.hud.bars.health.heart.idle s
 data modify storage mla:survival sudo_root.prebuilt.hud.bars.health.heart.poison set value "n"
 data modify storage mla:survival sudo_root.prebuilt.hud.bars.health.heart.bubble set value "m"
 
-data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.inner set value "\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e"
-data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.outer.black set value "\uF801f\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h"
-data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.outer.flash set value "\uF801g\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i"
-data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.flash set value "\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b"
-data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.idle set value "\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015"
-data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.void set value "\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j"
+data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.inner set value "\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e\uF801e"
+data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.outer.black set value "\uF801f\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h\uF801h"
+data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.outer.flash set value "\uF801g\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i\uF801i"
+data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.flash set value "\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b\uF801c\uF801d\uF8018\uF8019\uF8010\uF801a\uF801b"
+data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.idle set value "\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015\uF8016\uF8017\uF8011\uF8012\uF8013\uF8014\uF8015"
+data modify storage mla:survival sudo_root.prebuilt.hud.bars.stamina.void set value "\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j\uF801j"
 
 
 data modify storage mla:survival sudo_root.prebuilt.hud.hotbar.main set value "1"

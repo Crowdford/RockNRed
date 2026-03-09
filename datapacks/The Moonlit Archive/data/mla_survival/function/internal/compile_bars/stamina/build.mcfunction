@@ -13,7 +13,7 @@ scoreboard players operation $temp2 bbl.main *= $100 bbl.constant
 #Divide current health by max health
 scoreboard players operation $temp2 bbl.main /= $temp bbl.main
 #Set max pip count
-scoreboard players set $temp3 bbl.main 32
+scoreboard players set $temp3 bbl.main 30
 #Divide pip count by percentile health
 scoreboard players operation $temp3 bbl.main *= $temp2 bbl.main
 #Divide by 100 to get current health pip count
@@ -32,7 +32,7 @@ scoreboard players operation $temp6 bbl.main *= $100 bbl.constant
 #Divide current health by max health
 scoreboard players operation $temp6 bbl.main /= $temp5 bbl.main
 #Set max pip count
-scoreboard players set $temp7 bbl.main 32
+scoreboard players set $temp7 bbl.main 30
 #Divide pip count by percentile health
 scoreboard players operation $temp7 bbl.main *= $temp6 bbl.main
 #Divide by 100 to get current health pip count

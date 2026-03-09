@@ -17,8 +17,10 @@ execute unless predicate bb:is_sprinting unless score @s mla.survival.stamina.cu
 execute if score @s mla.survival.jump matches 1.. if score @s mla.survival.stamina.current matches -10.. run scoreboard players remove @s mla.survival.stamina.current 7
 execute if score @s mla.survival.jump matches 1.. run scoreboard players set @s mla.survival.jump 0
 
+execute if predicate bb:is_sprinting run scoreboard players set @s mla.survival.stamina.delay 20
+
 execute if score @s mla.survival.stamina.delay matches ..1 if score @s mla.survival.stamina.current matches ..1 run scoreboard players set @s mla.survival.stamina.delay 60
-execute if score @s mla.survival.stamina.delay matches 2 run scoreboard players set @s mla.survival.stamina.current 3
+execute if score @s mla.survival.stamina.delay matches 2 if score @s mla.survival.stamina.current matches ..3 run scoreboard players set @s mla.survival.stamina.current 3
 execute if score @s mla.survival.stamina.delay matches 1.. run scoreboard players remove @s mla.survival.stamina.delay 1
 
 execute if score @s mla.survival.stamina.current matches ..0 run scoreboard players set @s mla.survival.stamina.current 0
