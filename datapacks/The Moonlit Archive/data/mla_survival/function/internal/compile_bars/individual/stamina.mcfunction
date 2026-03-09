@@ -1,0 +1,6 @@
+
+#selector
+function bb:lib/pldata/read/call
+function mla_survival:internal/compile_bars/stamina/build
+function bb:lib/pldata/write/call
+function mla_survival:internal/compile_bars/display

@@ -1,0 +1,68 @@
+
+#sanity cieling
+execute if score @s mla.survival.stamina.current > @s mla.survival.stamina.max run scoreboard players operation @s mla.survival.stamina.current = @s mla.survival.stamina.max
+
+
+#NORMAL HP
+#Get player's max health
+scoreboard players operation $temp bbl.main = @s mla.survival.stamina.max
+#Get player's current health
+scoreboard players operation $temp2 bbl.main = @s mla.survival.stamina.current
+#Multiply current health by 100
+scoreboard players operation $temp2 bbl.main *= $100 bbl.constant
+#Divide current health by max health
+scoreboard players operation $temp2 bbl.main /= $temp bbl.main
+#Set max pip count
+scoreboard players set $temp3 bbl.main 32
+#Divide pip count by percentile health
+scoreboard players operation $temp3 bbl.main *= $temp2 bbl.main
+#Divide by 100 to get current health pip count
+scoreboard players operation $temp3 bbl.main /= $100 bbl.constant
+#Divide by 2 to get desired index count
+scoreboard players operation $temp3 bbl.main *= $2 bbl.constant
+
+
+#FLASH HP
+#Get player's max health
+scoreboard players operation $temp5 bbl.main = @s mla.survival.stamina.max
+#Get player's flash health
+scoreboard players operation $temp6 bbl.main = @s mla.survival.stamina.flashed
+#Multiply current health by 100
+scoreboard players operation $temp6 bbl.main *= $100 bbl.constant
+#Divide current health by max health
+scoreboard players operation $temp6 bbl.main /= $temp5 bbl.main
+#Set max pip count
+scoreboard players set $temp7 bbl.main 32
+#Divide pip count by percentile health
+scoreboard players operation $temp7 bbl.main *= $temp6 bbl.main
+#Divide by 100 to get current health pip count
+scoreboard players operation $temp7 bbl.main /= $100 bbl.constant
+#Divide by 2 to get desired index count
+scoreboard players operation $temp7 bbl.main *= $2 bbl.constant
+
+#get current hp
+scoreboard players operation $temp8 bbl.main = @s mla.survival.stamina.current
+
+
+#get blink timer
+scoreboard players operation $temp4 bbl.main = @s mla.survival.stamina.blink_timer
+#decrement blink timer
+execute if score @s mla.survival.stamina.blink_timer matches 2.. run scoreboard players remove @s mla.survival.stamina.blink_timer 1
+#if blink timer out, cleanup
+execute if score @s mla.survival.stamina.blink_timer matches 1 run function mla_survival:internal/compile_bars/stamina/blink_end
+
+data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.stamina.outline set from storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.outer.black
+
+execute if score $temp4 bbl.main matches 4.. run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.stamina.outline set from storage mla:survival sudo_root.prebuilt.hud.bars.stamina.empty.outer.flash
+
+
+execute store result storage bbl:temp sudo_root.index_normal int 1 run scoreboard players get $temp3 bbl.main
+execute store result storage bbl:temp sudo_root.index_flash int 1 run scoreboard players get $temp7 bbl.main
+execute store result storage bbl:temp sudo_root.current_stamina int 1 run scoreboard players get $temp8 bbl.main
+
+function mla_survival:internal/compile_bars/stamina/macro with storage bbl:temp sudo_root
+
+#execute if score $temp4 bbl.main matches 2..4 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.stamina.flash set from storage mla:survival sudo_root.prebuilt.hud.bars.stamina.void
+#execute if score $temp4 bbl.main matches 8..10 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.stamina.flash set from storage mla:survival sudo_root.prebuilt.hud.bars.stamina.void
+#execute if score $temp4 bbl.main matches 2..4 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.stamina.flash set from storage mla:survival sudo_root.prebuilt.hud.bars.stamina.void
+#execute if score $temp4 bbl.main matches 14..16 run data modify storage bbl:pldata sudo_root.working_data.oneshot.hud_build.stamina.flash set from storage mla:survival sudo_root.prebuilt.hud.bars.stamina.void

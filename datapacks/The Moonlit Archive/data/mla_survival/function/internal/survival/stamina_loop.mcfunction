@@ -6,7 +6,7 @@ execute if score @s mla.survival.food matches 12.. run effect give @s minecraft:
 
 execute if predicate bb:is_sprinting if score @s mla.survival.stamina.current matches 1.. run scoreboard players add @s mla.survival.stamina.exhaustion 1
 
-execute if score @s mla.survival.stamina.exhaustion matches 3.. run scoreboard players remove @s mla.survival.stamina.current 1
+execute if score @s mla.survival.stamina.exhaustion matches 3.. run function mla_survival:internal/survival/spend_stamina
 execute if score @s mla.survival.stamina.exhaustion matches 3.. run scoreboard players remove @s mla.survival.stamina.exhaustion 3
 
 execute if predicate bb:is_sprinting run attribute @s minecraft:movement_speed modifier add sprint_buff 0.2 add_multiplied_total
@@ -20,3 +20,5 @@ execute if score @s mla.survival.jump matches 1.. run scoreboard players set @s 
 execute if score @s mla.survival.stamina.delay matches ..1 if score @s mla.survival.stamina.current matches ..1 run scoreboard players set @s mla.survival.stamina.delay 60
 execute if score @s mla.survival.stamina.delay matches 2 run scoreboard players set @s mla.survival.stamina.current 3
 execute if score @s mla.survival.stamina.delay matches 1.. run scoreboard players remove @s mla.survival.stamina.delay 1
+
+execute if score @s mla.survival.stamina.current matches ..0 run scoreboard players set @s mla.survival.stamina.current 0
